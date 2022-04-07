@@ -10,3 +10,18 @@
 ../dts/mt7621_zbtlink_zbt-we1326.dts:53.9-57.5: ERROR (phandle_references): /keys/reset: Reference to non-existent node or label "gpio0"
 
 ERROR: Input tree has errors, aborting (use -f to force output)
+
+Generating index for package ./wsdd2_2021-06-28-062a9542-1_mipsel_24kc.ipk
+Signing package index...
+make[2]: Leaving directory '/home/dem/R0021'
+export MAKEFLAGS= ;make -w -r json_overview_image_info
+make[2]: Entering directory '/home/dem/R0021'
+make[2]: Nothing to be done for 'json_overview_image_info'.
+make[2]: Leaving directory '/home/dem/R0021'
+export MAKEFLAGS= ;make -w -r checksum
+make[2]: Entering directory '/home/dem/R0021'
+make[2]: Leaving directory '/home/dem/R0021'
+make[1]: Leaving directory '/home/dem/R0021'
+cp: cannot stat './bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-16m-squashfs-sysupgrade.bin': No such file or directory
+1 /ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-16m-squashfs-sysupgrade.bin
+dem@dem-VirtualBox:~/R0021$ 
