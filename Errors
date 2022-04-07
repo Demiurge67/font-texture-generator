@@ -1,0 +1,12 @@
+/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-5.4.158/scripts/dtc/dtc -O dtb -i../dts/ -Wno-unit_address_vs_reg -Wno-simple_bus_reg -Wno-unit_address_format -Wno-pci_bridge -Wno-pci_device_bus_num -Wno-pci_device_reg -Wno-avoid_unnecessary_addr_size -Wno-alias_paths -Wno-graph_child_address -Wno-graph_port -Wno-unique_unit_address  -o /home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_zbtlink_zbt-we1326.dtb /home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_zbtlink_zbt-we1326.dtb.tmp
+../dts/mt7621_zbtlink_zbt-we1326.dts:26.18-29.5: ERROR (phandle_references): /leds/boot: Reference to non-existent node or label "gpio0"
+
+../dts/mt7621_zbtlink_zbt-we1326.dts:31.16-34.5: ERROR (phandle_references): /leds/lan: Reference to non-existent node or label "gpio0"
+
+../dts/mt7621_zbtlink_zbt-we1326.dts:36.18-39.5: ERROR (phandle_references): /leds/fail: Reference to non-existent node or label "gpio0"
+
+../dts/mt7621_zbtlink_zbt-we1326.dts:47.7-51.5: ERROR (phandle_references): /keys/wps: Reference to non-existent node or label "gpio0"
+
+../dts/mt7621_zbtlink_zbt-we1326.dts:53.9-57.5: ERROR (phandle_references): /keys/reset: Reference to non-existent node or label "gpio0"
+
+ERROR: Input tree has errors, aborting (use -f to force output)
