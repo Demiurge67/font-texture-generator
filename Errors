@@ -25,3 +25,23 @@ make[1]: Leaving directory '/home/dem/R0021'
 cp: cannot stat './bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-16m-squashfs-sysupgrade.bin': No such file or directory
 1 /ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-16m-squashfs-sysupgrade.bin
 dem@dem-VirtualBox:~/R0021$ 
+
+dem@dem-VirtualBox:~/R0021$ make -j
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/tmp/openwrt-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/tmp/openwrt-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/json_info_files/openwrt-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin.json'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/json_info_files/openwrt-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin.json'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-kernel.bin'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-kernel.bin'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/zbtlink_zbt-we1326-kernel.bin'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/zbtlink_zbt-we1326-kernel.bin'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/tmp/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/tmp/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin.gz'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin.gz'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin'
+Makefile:206: warning: overriding recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/json_info_files/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin.json'
+Makefile:206: warning: ignoring old recipe for target '/home/dem/R0021/build_dir/target-mipsel_24kc_musl/json_info_files/openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin.json'
