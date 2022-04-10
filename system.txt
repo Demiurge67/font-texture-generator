@@ -1,0 +1,97 @@
+config system
+
+        option ttylogin '0'
+
+        option log_size '64'
+
+        option urandom_seed '0'
+
+        option compat_version '1.1'
+
+        option hostname 'ROOter'
+
+        option cronloglevel '9'
+
+        option zonename 'UTC'
+
+        option log_proto 'udp'
+
+        option conloglevel '8'
+
+
+
+config timeserver 'ntp'
+
+        list server '0.openwrt.pool.ntp.org'
+
+        list server '1.openwrt.pool.ntp.org'
+
+        list server '2.openwrt.pool.ntp.org'
+
+        list server '3.openwrt.pool.ntp.org'
+
+
+
+config led
+
+        option trigger 'netdev'
+
+        list mode 'link'
+
+        list mode 'tx'
+
+        list mode 'rx'
+
+        option name 'LTE'
+
+        option sysfs 'green:fail'
+
+        option dev 'radio0.network3'
+
+
+
+config led
+
+        option name 'LAN'
+
+        option sysfs 'blue:lan'
+
+        option trigger 'netdev'
+
+        option dev 'eth0'
+
+        list mode 'link'
+
+        list mode 'tx'
+
+        list mode 'rx'
+
+
+
+config led
+
+        option name 'WiFi'
+
+        option sysfs 'red:boot'
+
+        option trigger 'netdev'
+
+        option dev 'wlan0-1'
+
+        list mode 'tx'
+
+
+
+config led
+
+        option name 'WiFi'
+
+        option sysfs 'red:boot'
+
+        option trigger 'netdev'
+
+        option dev 'wlan1'
+
+        list mode 'tx'
+
+
